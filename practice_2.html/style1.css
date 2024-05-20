@@ -1,0 +1,16 @@
+.floatbox{
+	height:300px;
+	background-color:yellow;
+}
+
+.item{
+	height:100px;
+	width:100px;
+	background-color:grey;
+	}
+
+	.ILLUSTRATION  img{
+		float:left;
+	}
+
+	}

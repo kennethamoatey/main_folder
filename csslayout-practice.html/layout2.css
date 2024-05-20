@@ -1,0 +1,28 @@
+.navbar{
+	height:80px;
+	background-color:gray;
+	margin-bottom:20px;
+}
+
+.hero{
+	height:400px;
+	background:gray;
+	margin-bottom:20px;
+}
+
+.items{
+	height:200px;
+	width:300px;
+	background-color:gray;
+}
+
+.container{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:20px;
+}
+
+.footer{
+	height:50px;
+	background-color:grey;
+}

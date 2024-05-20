@@ -1,0 +1,100 @@
+
+#body{
+box-sizing: border-box;
+
+font-family:arial, sans-serif;
+content-width:auto
+
+}
+
+
+.heading{
+	background-color:lightseagreen;
+	height:180px;
+	padding-top:30px;
+	*/border-radius:15px 15px 0px 0px;*/
+
+}
+
+.heading h1,h5{
+	text-align:center;
+	
+}
+
+.heading h1{
+	font-weight:bolders;
+	font-size:40px;
+
+}
+
+.list{
+
+	background-color:black;
+	color:white;
+	height:60px;
+	display:flex;
+	padding-top:10px;
+}
+
+.list div{
+	margin:20px;
+}
+
+.content{
+	background-color:lightgray;
+	width:480px;
+	height:1000px;
+	margin-top:40px;
+	display:flex;
+	flex-direction:column;
+	padding:10px;
+
+}
+
+.content h3,h4{
+	font-weight:bold;
+}
+
+.illustration{
+	height:200px;
+	width:480px;
+	background-color:gray;
+
+}
+
+.boy, .girl{
+	background-color:gray;
+	height:80px;
+	width:480px;
+	margin-bottom:20px;
+}
+
+.teen{
+	background-color:gray;
+	height:80px;
+	width:480px;
+}
+
+
+.subtitle{
+	position:absolute;
+	bottom:-480px;
+	left:530px;
+	
+	
+
+}
+
+.second{
+	height:200px;
+	background-color:gray;
+	margin-top:15px;
+	margin-right:10px;
+}
+
+#ending{
+	background-color:gray;
+	height:120px;
+	postion:relative;
+	top:300px;
+}

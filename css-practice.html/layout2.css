@@ -1,0 +1,36 @@
+body{
+	
+	margin:20px;
+}
+
+.hero{
+	background-color:lightgreen;
+	height:40px;
+	margin-bottom:20px;
+	
+}
+
+.content{
+	background-color:lightgreen;
+	height:200px;
+	margin-bottom:20px;
+}
+
+.contents{
+	background-color:lightgreen;
+	height:70px;
+	
+}
+
+.one{
+	background-color:lightgreen;
+	height:150px;
+	width:370px;
+	
+
+}
+
+.list{
+	display:flex;
+	justify-content:space-between;
+}

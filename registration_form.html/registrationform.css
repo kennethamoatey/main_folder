@@ -1,0 +1,227 @@
+
+body{
+	font-family:Arial, sans-serif
+	margin:0px;
+	padding:0px;
+	background-color:rgb(200,225,225);
+    display:flex;
+	justify-content:center;
+	text-align:left;
+
+}
+
+.form-one{
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+	border-radius:10px;
+	width:600px;
+	height:250px;
+	background-color:white;
+	margin-top:20px;
+	padding:0px 15px 0px 10px;
+	border-top-width:16px;
+	border-top-color:rgb(10,90,190);
+	
+}
+
+h1{
+	text-weight:normal;
+}
+
+.instruction{
+	text-align:center;
+}
+
+.address{
+	border-top:solid grey 1px;
+	padding:10px 0px 10px 0px;
+
+}
+
+strong{
+	color:rgb(100,200,200);
+}
+
+.note{
+	color:red;
+	border-top:solid grey 1px;
+	padding-top:10px;
+}
+
+.form-two{
+	border-style:solid;
+	border-color:grey;
+	border-radius:10px;
+	border-width:1px;
+	width:600px;
+	height:125px;
+	background-color:white;
+	margin-top:15px;
+	padding:40px 15px 0px 10px;
+	font-size: 17px;
+
+	
+}
+
+.asteriks{
+	color:red;
+}
+
+.entry{
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	width:350px;
+	font-size: 17px;
+}
+
+.form-three{
+	border-style:solid;
+	border-color:grey;
+	border-radius:10px;
+	border-width:1px;
+	width:600px;
+	height:125px;
+	background-color:white;
+	margin-top:15px;
+	padding:40px 15px 0px 10px;
+	font-size: 17px;
+}
+
+.form-four{
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+	border-radius:10px;
+	margin-top:15px;
+	padding:40px 15px 0px 10px;
+	width:600px;
+	height:125px;
+	background-color:white;
+	font-size: 17px;
+
+
+
+}
+
+.form-five{
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+	border-radius:10px;
+	margin-top:15px;
+	padding:40px 15px 0px 10px;
+	background-color:white;
+	height:135px;
+	font-size:17px;
+
+}
+
+.form-six{
+	border-style:solid;
+	margin-top:15px;
+	border-color:grey;
+	border-width:1px;
+	border-radius:10px;
+	background-color:white;
+	height:125px;
+	font-size: 17px;
+	padding:20px 15px 10px 20px;
+}
+
+.form-seven{
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+	border-radius:10px;
+	background-color:white;
+	margin-top:15px;
+	height:135px;
+	padding:20px 15px 20px 15px;
+	font-size: 17px;
+
+
+}
+
+.form-eight{
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	border-radius:10px;
+	background-color:white;
+	margin-top:15px;
+	height:120px;
+	padding:40px 0px 0px 10px;
+	font-size: 17px;
+}
+
+.form-nine{
+	border-style:solid;
+	border-color:grey;
+	margin-top:15px;
+	border-radius:10px;
+	background-color:white;
+	height:120px;
+	font-size: 17px;
+	padding:40px 0px 0px 10px;
+	border-width:1px;
+}
+
+.form-ten{
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	background-color:white;
+	height:120px;
+	border-radius:10px;
+	margin-top:15px;
+	padding:40px 0px 0px 10px;
+	font-size: 17px;
+}
+
+.form-eleven{
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	border-radius:10px;
+	height:120px;
+	background-color:white;
+	margin-top:10px;
+	padding:40px 0px 0px 10px;
+	font-size: 17px;
+}
+
+h4{
+	color:grey;
+	font-size: 17px;
+}
+
+button{
+	border-style:solid;
+	border-width:1px;
+	height:40px;
+	width:105px;
+	background-color:blue;
+	color:white;
+	font-size: 17px;
+	border-radius:4px;
+	margin-right:70px;
+
+}
+
+button{
+	opacity:0.7;
+
+
+}
+
+button:hover{
+	opacity:0.4;
+}
+
+.footer{
+	color:blue;
+	margin-left:150px;
+	font-size: 17px;
+}

@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    
+	<head>
+		<title>UNDP_JOB_APPLICATION</title>
+
+	<style>
+		
+		body{
+			margin:0;	
+			padding:0px;
+			font-family:Arial, san-serif;
+			background-color:#f2f2f2;
+		}
+
+		button{
+			background-color:rgb(200,0,0);
+			color:white;
+			border:none;
+			height:36px;
+			width:105px;
+			border-radius:3px;
+			cursor:pointer;
+			font-weight:bold;
+			font-size: 15px;
+			opacity:1;
+
+		}
+
+
+
+		
+
+
+		header{
+			background-color:grey;
+			padding:20px 20px;
+			display:flex;
+			justify-content:space-between;
+			align-items:center;
+			color:white;
+			top:0;	
+		
+		}
+
+
+		h5:hover{
+			color:darkred;
+		}
+
+		.nav{
+			text-align:center;
+			
+		}
+
+		.nav ul{
+			text-align:center;
+		}
+
+		.nav li{
+			display:inline-block;
+		}
+
+		.nav a{
+			text-align:center;
+			display:block;
+			padding:20px 25px;
+		}
+
+
+		
+	</style>
+	</head>
+    
+	<body>
+		
+		<!--heading-->
+		<header class="nav" >
+			
+			
+				<ul>
+					<li>
+						<h1>Administrative Assistant</h1>
+					</li>
+					<li>
+						<a href="#google.com"target="_blank" >Home</a>
+					</li>
+					
+					<li>
+						<a href="codetrainafrica.com"target="_blank" >About</a>
+					</li>
+                	
+					<li>
+						<a href="codecademy.com"target="_blank" >Contact</a>
+					</li>
+				</ul>
+
+		 
+        </header>
+			<h5>Accra-Ghana</h5>
+		
+		
+         <center class="filling">
+          	<div class="Second_topic">
+				<p>
+				<strong>
+					<h2>Personal Information</h2>
+				</strong>	
+
+				</p>
+			</div>
+		  
+         	
+         		<div class="third_topic">
+				<p>Please enter your personal information</p>
+          	</div>
+          
+          	
+                <!--Personal Information-->
+		   	<br>
+			<form action="practice.html" method="POST">
+
+				<label>Title</label>
+				<br>			 
+				<select id="Title"name="Title">
+					<option value="Dr.">Dr.</option>
+					<option value="Mr.">Mr.</option>
+					<option value="Mrs.">Mrs.</option>
+					<option value="Miss">Miss</option>
+				</select>
+				<br>
+		
+	
+				
+
+				<label for="surname">Surname</label>
+				<br>
+				<input name="Surname"id="Surname"placeholder="surname"type="text" required>
+				<br>
+			   
+
+				<label>Firstname</label>
+				<br>
+               	<input type="text"name="Firstname"placeholder="Firstname">
+				<br>
+			   
+
+               	<label for="Middle_name">MiddleName</label>
+				<br>
+				<input type="text"name="Middle_name"placeholder="MiddleName">
+				<br>
+				   
+
+				<label for="Email">Email</label>
+				<br>
+				<input type="email"name="email"placeholder="Email">
+				<br>
+		  
+		
+                      <!--gender_dob-->
+				<p>
+					<h4>Additional Information</h4>
+				</p>
+
+				<p>In other for your application to be completed,you must complete the online form.</p>
+				<br>
+
+				<label for="gender">Gender</label>
+				<br>
+				<input type="radio"name="gender"value="male">Male
+				<input type="radio"name="gender"value="female">Female
+				<br><br>
+
+				<!--date of birth-->
+
+				<label for="Date_of_Birth">Date of Birth</label>
+				<br>
+				<select type="text"name="month">
+			   		<option value="month">Month</option>
+			   		<option value="January">January</option>
+			   		<option value="February">February</option>
+			   		<option value="March">March</option>
+			   		<option value="April">April</option>
+			   		<option value="May">May</option>
+			   		<option value="June">June</option>
+			   		<option value="July">July</option>
+			   		<option value="August">August</option>
+			   		<option value="September">September</option>
+			   		<option value="October">October</option>
+			   		<option value="November">November</option>
+			   		<option value="December">December</option>
+				</select>
+
+				<select type="number"name="days">
+			   		<option value="days">Days</option>
+			   		<option value="1">1</option>
+			   		<option value="2">2</option>
+               		<option value="3">3</option>
+               		<option value="4">4</option>
+               		<option value="5">5</option>
+               		<option value="6">6</option>
+               		<option value="7">7</option>
+               		<option value="8">8</option>
+               		<option value="9">9</option>
+               		<option value="10">10</option>
+               		<option value="11">11</option>
+               		<option value="12">12</option>
+               		<option value="13">13</option>
+               		<option value="14">14</option>
+               		<option value="15">15</option>
+               		<option value="16">16</option>
+               		<option value="17">17</option>
+               		<option value="18">18</option>
+               		<option value="19">19</option>
+               		<option value="20">20</option>
+               		<option value="21">21</option>
+               		<option value="22">22</option>
+               		<option value="23">23</option>
+               		<option value="24">24</option>
+              			<option value="25">25</option>
+               		<option value="26">26</option>
+               		<option value="27">27</option>
+               		<option value="28">28</option>
+               		<option value="29">29</option>
+               		<option value="30">30</option>
+              			<option value="31">31</option>
+            		</select>
+
+            		<select type="number"name="years">
+            	 		<option value="years">Years</option>
+            			<option value="1987">1987</option>
+					<option value="1988">1988</option>
+					<option value="1989">1989</option>
+					<option value="1990">1990</option>
+					<option value="1991">1991</option>
+					<option value="1992">1992</option>
+					<option value="1993">1993</option>
+					<option value="1994">1994</option>
+					<option value="1995">1995</option>
+					<option value="1996">1996</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+					<option value="2006">2006</option>
+					<option value="2007">2007</option>
+					<option value="2008">2008</option>
+					<option value="2009">2009</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+            		</select>
+
+            		<!--marital status-->
+            		<br>
+            		<label for="marital_status">Marital Status</label>
+            		<br><br>
+            		<select type="text"name="Marital Status">
+            	 		<option value="Marital_Status">Marital Status</option>
+            			<option value="Married">Married</option>
+            			<option value="Single">Single</option>
+					<option value="Divorced">Divorced</option>
+					<option value="Common-Law">Common-Law</option>
+					<option value="Head_of_household">Head of Household</option>
+					<option value="Separated">Separated</option>
+					<option value="Widowed">Widowed</option>
+					<option value="Unknown">Unknown</option>
+            		</select>
+               	<br><br>
+
+               	<!--ADDRESS INFORMATION-->
+              	 	<h4>
+               		<strong>Address Information</strong>
+               	</h4>
+
+               	<P></P>Please enter your home address.
+
+            
+           		<br><br>
+            		<select type="text"name="country"id="country"list="country">
+           			<datalist id="country">
+            				<option value="Country">Country</option>
+            				<option value="Gabon">Gabon</option>
+            				<option value="Gambia">Gambia</option>
+            				<option value="Georgia">Georgia</option>
+            				<option value="Germany">Germany</option>
+            				<option value="Ghana">Ghana</option>
+            				<option value="Gibraltar">Gibraltar</option>
+            				<option value="Greece">Greece</option>
+            				<option value="Grenada">Genada</option>
+            				<option value="Guatemala">Guatemala</option>
+            			</datalist>
+            		</select>
+
+            		<br>
+            		<br>
+
+            		<label for="Address">Address Line 1</label>
+            		<br>
+            		<br>
+
+            		<input type="text"name="Address"placeholder="Address Line 1">
+            		<br><br>
+
+            		<label for="Address">Address Line 2</label>
+
+            		<input type="text"name="Address"placeholder="Address Line 2">
+            		<br><br>
+                     
+                     <!--application_question-->
+
+            		<h2>JOB APPLICATION QUESTIONS</h2>
+
+            		<P>APPLICATION QUESTIONS</P>
+            		<P>Please answer the following questions</P>
+
+            		<p>Are any of your relatives(mother, father, <br>brother, sister, son) currently working with UNDP.</p>
+            		<input type="radio"name="question1"value="YES">YES
+            		<input type="radio"name="question1"value="NO">NO
+            
+            		<p>Have you ever been involved in the commission of any act of <br>sexual harrassment or sexual exploitation and abuse.</p>
+            		<input type="radio"name="question2"value="YES">YES
+            		<input type="radio"name="question2"value="NO">NO
+
+            		<p>*Do you self identify as a person with disability.<br>*The purpose of this question is help us intentionally and actively <br>recruit more people with disabilities in compliance with our commitments<br> under the United Nation Inclusion Strategy.</p>
+            		<input type="radio"name="question3"value="YES">YES
+            		<input type="radio"name="question3"value="NO">NO
+            		<input type="radio"name="question3"value="Prefer not to say"checked>Prefer not to say
+
+            		<p>Please state your motivation in applying for this postion<br> which may be your cover letter.</p>
+            		<textarea id="blog"name="blog"  row="100"cols="40"placeholder="COVER LETTER"></textarea>
+
+            		<p>Have you ever been imposed disciplinary measures,<br> including dismissal or separation from service,<br> on the grounds of misconduct.</p>
+            		<select type="text"name="question">
+            			<option value="Yes">YES</option>
+            			<option value="NO">NO</option>
+            		</select>
+
+            		<p>Have you ever been indicted, arrested, or summoned to court<br> as a defendant in criminal proceeding or convicted or fined<br>or inprisoned for the violation of any law (excluding minor traffic violation).</p>
+            		<input type="radio"name="question4"value="YES">YES
+            		<input type="radio"name="question4"value="NO">NO
+
+            		<p>How did you hear about this job opportunity</p>
+            		<input type="checkbox"name="question5">Vacancy Announcement Email
+            		<br>
+            		<input type="checkbox"name="question5">Employee Referral
+            		<br>
+            		<input type="checkbox"name="question5">Employment Website
+            		<br>
+            		<input type="checkbox"name="question5">Social Media
+            		<br>
+            		<input type="checkbox"name="question5">Paper ad in newspaper
+            		<br>
+            		<input type="checkbox"name="question5">Job Board
+
+            		<!--CERTIFICATION AGREEMENT-->
+
+            		<p>Your online application must fully be completed.<br> You understand failure in doing so disqualifies you from<br>the recruitment and selection process. You must also understand that<br> once your application is submitted, it cannot be edited.</p>
+            		<input type="radio"name="question6"value="YES">I certify that I have filled in the online application form, with<br>all required sections which include Nationality,<br>Education, Experience, and Language. Failure in doing so,<br> disqualifies me from the recruitment and selection process.
+            		<br><br><br>
+               
+               	<!--SUBMIT BOTTON-->
+               	<div id="button">
+               		<button>SUBMIT</button>
+          		</div>
+            		<br><br><br>
+         </center>
+
+            			<footer>
+            			<strong>Copyright Information:</strong>
+            		<br> Information displayed on this webpage is a clone <br> to UNDP job application page. Hence for a reliable information,<br>one should refere to the source of information below.
+            		<br><br>
+            		<strong>Source:</strong>
+            		<ul>
+            			<li>
+            				<a href="https://jobs.undp.org/cj_view_jobs.cfm">UNDP Global Careers</a>
+            			</li>
+            			<li>
+            				<a href="https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16419/apply/section/1" >UNDP Administrative Assistant</a>
+            			</li>
+            			<li>
+            				<a href="https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?keyword=administrative+assistant+dubai">UN Jobsite</a>
+            			</li>
+            		</ul>
+            		</footer>
+
+
+
+
+		</form>
+		
+
+	</body>
+</html>

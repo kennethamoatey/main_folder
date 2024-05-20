@@ -1,0 +1,19 @@
+.container{
+	background-color:red;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	height:600px;
+	justify-content:center;
+	align-items:center;
+
+
+
+}
+
+.container div{
+	height:150px;
+	width:150px;
+	background-color:gray;
+	margin:5px;
+}

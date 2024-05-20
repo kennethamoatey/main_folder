@@ -1,0 +1,30 @@
+.navbar{
+	height:100px;
+	background-color:red;
+	margin-bottom:15px;
+	margin-top:10px;
+}
+
+.hero{
+	height:180px;
+	background-color:red;
+	margin-bottom:15px;
+}
+
+.items{
+	height:200px;
+	width:400px;
+	background-color:red;
+}
+
+.container{
+	display:flex;
+	justify-content:space-between;
+}
+
+.footer{
+	height:70px;
+	background-color:red;
+	margin-top:15px;
+
+}
